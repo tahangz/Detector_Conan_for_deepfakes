@@ -1,0 +1,14 @@
+.animated-text {
+  display: inline-block;
+  transition: opacity 0.5s ease;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.animated-text.visible {
+  opacity: 1;
+}
+
+.animated-text.hidden {
+  opacity: 0;
+}
