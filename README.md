@@ -99,3 +99,110 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:5000",
     "https://your-domain.com",
 ]
+```
+<CodeProject id="deepfake-detector">
+## 🏗️ Backend Setup
+
+1. **Install Node.js dependencies:**
+
+    ```bash
+    cd backend
+    npm install
+    ```
+
+2. **Create necessary directories:**
+
+    ```bash
+    mkdir -p uploads logs
+    ```
+
+3. **Start the backend server:**
+
+    ```bash
+    npm start
+    ```
+
+    Alternatively, for development with auto-restart:
+
+    ```bash
+    npm run dev
+    ```
+
+    The server will run on [http://localhost:3000](http://localhost:3000).
+
+---
+
+## ⚙️ Frontend Setup
+
+1. **Install React dependencies:**
+
+    ```bash
+    cd frontend
+    npm install
+    ```
+
+2. **Configure the start script in `package.json`:**
+
+   - **Windows**:
+     ```json
+     "scripts": {
+       "start": "set PORT=5000 && react-scripts start",
+       ...
+     }
+     ```
+   - **macOS / Linux**:
+     ```json
+     "scripts": {
+       "start": "PORT=5000 react-scripts start",
+       ...
+     }
+     ```
+
+3. **Start the frontend development server:**
+
+    ```bash
+    npm start
+    ```
+
+    The application will be available at [http://localhost:5000](http://localhost:5000).
+
+---
+
+## 🤖 AI Models Setup
+
+1. **Create the AI models directory in the Django API:**
+
+    ```bash
+    mkdir -p DJ_API/ai_models
+    ```
+
+2. **Place your AI models in the directory:**
+   - Image model: `DJ_API/ai_models/face_detection.keras`  
+   - Video model: `DJ_API/ai_models/video_model.pth`
+
+3. **Update the Django settings to use real models**  
+   In `DJ_API/deepfake_api/settings.py`, modify:
+    ```python
+    # AI model paths
+    AI_MODELS = {
+        'IMAGE_MODEL_PATH': os.path.join(BASE_DIR, 'ai_models', 'face_detection.keras'),
+        'VIDEO_MODEL_PATH': os.path.join(BASE_DIR, 'ai_models', 'video_model.pth'),
+        'USE_MOCK_MODELS': False,  # Change this to False to use real models
+    }
+    ```
+
+4. **Install Python dependencies:**
+
+    ```bash
+    cd DJ_API
+    pip install -r requirements.txt
+    ```
+
+5. **Run the Django API:**
+
+    ```bash
+    python run_api.py
+    ```
+
+    The Django API will run on [http://localhost:8000](http://localhost:8000).
+</CodeProject>
