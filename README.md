@@ -11,10 +11,10 @@ Using : XceptionNet + Vit for images analysis and ResneXt 50 + LSTM for videos a
   <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="400"/>
 </p>
 <p align="center">
-  <img src="ResneXt.png" alt="Sample Gesture" width="400"/>
+  <img src="Screenshot 2025-05-05 013331.png" alt="Sample Gesture" width="400"/>
 </p>
 <p align="center">
-  <img src="ResneXt.png" alt="Sample Gesture" width="400"/>
+  <img src="Screenshot 2025-05-05 013347.png" alt="Sample Gesture" width="400"/>
 </p>
 
 ## 📋 Table of Contents
