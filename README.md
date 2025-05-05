@@ -63,7 +63,7 @@ The project is organized into two main directories:
 ### Clone the repository
 
 \`\`\`bash
-git clone https://github.com/yourusername/detector-conan.git
+git clone https://github.com/tahangz/Detector_Conan_for_deepfakes
 cd detector-conan
 \`\`\`
 
