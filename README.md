@@ -1,6 +1,7 @@
 # Detector Conan - Deepfake Detection Platform
 
-![Detector Conan Logo](frontend/public/favicon.svg)
+![Detector Conan Logo](frontend/public/favicon.svg)  (MODELS CODE WILL BE AVAILABLE SOON)
+
 
 Detector Conan is an advanced deepfake detection platform that uses AI to identify manipulated images and videos. The platform provides a user-friendly interface for uploading and analyzing media files, with approximately 92% accuracy in detecting synthetic content.
 
