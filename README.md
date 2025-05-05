@@ -4,7 +4,7 @@
 
 
 Detector Conan is an advanced deepfake detection platform (developed with MERN-Stack + Django for API) that uses AI to identify manipulated images and videos. The platform provides a user-friendly interface for uploading and analyzing media files, with approximately 92% accuracy in detecting synthetic content.
-Using : XceptionNet + Vit for images analysis and ResneXt 50 + LSTM for videos analysis 
+Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos analysis 
 
 
 <p align="center">
