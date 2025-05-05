@@ -8,7 +8,10 @@ Detector Conan is an advanced deepfake detection platform that uses AI to identi
 Using : XceptionNet + Vit for images analysis and ResneXt 50 + LSTM for videos analysis 
 
 <p align="center">
-  <img src="Xception.png" alt="Sample Gesture" width="400"/>
+  <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="400"/>
+</p>
+<p align="center">
+  <img src="ResneXt.png" alt="Sample Gesture" width="400"/>
 </p>
 <p align="center">
   <img src="ResneXt.png" alt="Sample Gesture" width="400"/>
