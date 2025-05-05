@@ -3,7 +3,7 @@
 ![Detector Conan Logo](frontend/public/favicon.svg)  (MODELS CODE WILL BE AVAILABLE SOON)
 
 
-Detector Conan is an advanced deepfake detection platform that uses AI to identify manipulated images and videos. The platform provides a user-friendly interface for uploading and analyzing media files, with approximately 92% accuracy in detecting synthetic content.
+Detector Conan is an advanced deepfake detection platform (developed with MERN-Stack + Django for API) that uses AI to identify manipulated images and videos. The platform provides a user-friendly interface for uploading and analyzing media files, with approximately 92% accuracy in detecting synthetic content.
 Using : XceptionNet + Vit for images analysis and ResneXt 50 + LSTM for videos analysis 
 
 # 🏗️ High level overview of XceptionNet + Vit Architecture & Workflow
