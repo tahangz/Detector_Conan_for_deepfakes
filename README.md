@@ -324,30 +324,30 @@ If you encounter any issues with model loading, check the Django logs at `DJ_API
 
 1. **MongoDB Connection Error**:
 
-1. Verify your MongoDB URI in the `.env` file
-2. Ensure your IP address is whitelisted in MongoDB Atlas
+  . Verify your MongoDB URI in the `.env` file
+  . Ensure your IP address is whitelisted in MongoDB Atlas
 
 
 
 2. **Model Loading Errors**:
 
-1. Check if the model files exist in the correct location
-2. Verify that TensorFlow and PyTorch are properly installed
-3. Look at the Django logs for specific error messages
+  . Check if the model files exist in the correct location
+  . Verify that TensorFlow and PyTorch are properly installed
+  . Look at the Django logs for specific error messages
 
 
 
 3. **CORS Issues**:
 
-1. Ensure the frontend URL is correctly set in Django's CORS settings
-2. Check that the backend URL is correctly set in the frontend's axios configuration
+  . Ensure the frontend URL is correctly set in Django's CORS settings
+  . Check that the backend URL is correctly set in the frontend's axios configuration
 
 
 
 4. **File Upload Problems**:
 
-1. Verify that the `uploads` directory exists in the backend
-2. Check file size limits in both frontend and backend
+  . Verify that the `uploads` directory exists in the backend
+  . Check file size limits in both frontend and backend
 
 
 
