@@ -224,46 +224,6 @@ If you encounter any issues with model loading, check the Django logs at `DJ_API
 
 
 
-## 🔍 Detailed Model Setup
-
-### Image Model (XceptionNet + ViT)
-
-1. Download the pre-trained image model (will be available soon)
-2. Place the model file in `DJ_API/ai_models/face_detection.keras`
-3. The model expects input images of size 224x224 pixels in RGB format
-
-
-### Video Model (ResNeXt 50 + LSTM)
-
-1. Download the pre-trained video model (will be available soon)
-2. Place the model file in `DJ_API/ai_models/video_model.pth`
-3. The model processes video frames at 112x112 pixels
-
-
-### Switching from Mock to Real Models
-
-By default, the system uses mock models for testing. To use your real models:
-
-1. Ensure your models are in the correct location as described above
-2. Open `DJ_API/deepfake_api/settings.py`
-3. Find the AI_MODELS dictionary and set `'USE_MOCK_MODELS': False`
-4. Restart the Django API server
-
-
-If you encounter any issues with model loading, check the Django logs at `DJ_API/logs/`.
-
-## 📝 Usage
-
-1. Register a new account or log in with existing credentials
-2. Choose between image or video analysis
-3. Upload your file for analysis
-4. View the detection results and detailed analysis
-5. Check your history and dashboard for past analyses
-
-
-
-
-
 ## 🔌 API Endpoints
 
 ### Backend API (Node.js/Express)
