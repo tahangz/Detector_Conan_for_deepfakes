@@ -191,7 +191,7 @@ CORS_ALLOWED_ORIGINS = [
 ### Image Model (XceptionNet + ViT)
 
 1. Download the pre-trained image model (will be available soon)  
-2. Place the model file in `DJ_API/ai_models/image_model.keras`  
+2. Place the model file in `DJ_API/ai_models/face_detection.keras`  
 3. The model expects input images of size **224×224** pixels in RGB format  
 
 ### Video Model (ResNeXt-50 + LSTM)
