@@ -8,9 +8,16 @@ Detector Conan is an advanced deepfake detection platform (developed with MERN-S
 Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos analysis 
 
 
+
 <p align="center">
   <img src="Screenshot 2025-05-05 014534.png" alt="Sample Gesture" width="800"/>
 </p>
+
+## 👥 Contributors
+
+- [@tahangz]([https://github.com/yourusername](https://github.com/tahangz))
+- [@Najemeddinebessaoud]([https://github.com/Najemeddinebessaoud](https://github.com/Najemeddinebessaoud)) – Co-developer, helped with the deepfake detection models
+
 
 # 🏗️ High level overview of XceptionNet + Vit Architecture & Workflow
 <p align="center">
