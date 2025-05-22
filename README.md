@@ -13,10 +13,6 @@ Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos an
   <img src="Screenshot 2025-05-05 014534.png" alt="Sample Gesture" width="800"/>
 </p>
 
-## 👥 Contributors
-
-- [@tahangz](https://github.com/tahangz)
-- [@Najemeddinebessaoud](https://github.com/Najemeddinebessaoud) 
 
 
 # 🏗️ High level overview of XceptionNet + Vit Architecture & Workflow
@@ -30,6 +26,10 @@ Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos an
   <img src="Screenshot 2025-05-05 013347.png" alt="Sample Gesture" width="400"/>
 </p>
 
+## 👥 Contributors
+
+- [@tahangz](https://github.com/tahangz)
+- [@Najemeddinebessaoud](https://github.com/Najemeddinebessaoud) 
 
 ## 📋 Table of Contents
 
