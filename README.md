@@ -10,20 +10,25 @@ Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos an
 
 
 <p align="center">
-  <img src="Screenshot 2025-05-05 014534.png" alt="Sample Gesture" width="800"/>
+  <img src="Screenshot 2025-05-05 014534.png" alt="Sample Gesture" width="900"/>
 </p>
 
 
 
 # 🏗️ High level overview of XceptionNet + Vit Architecture & Workflow
 <p align="center">
-  <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="400"/>
+  <img src="Screenshot 2025-05-05 013244.png" alt="Sample Gesture" width="500"/>
 </p>
 
 # 🏗️ High level overview of ResNeXt + LSTM Architecture & Workflow
 <p align="center">
   <img src="Screenshot 2025-05-05 013331.png" alt="Sample Gesture" width="400"/>
   <img src="Screenshot 2025-05-05 013347.png" alt="Sample Gesture" width="400"/>
+</p>
+
+Screenshot 2025-05-22 214831.png
+<p align="center">
+  <img src="Screenshot 2025-05-22 214831.png" alt="Sample Gesture" width="600"/>
 </p>
 
 ## 👥 Contributors
