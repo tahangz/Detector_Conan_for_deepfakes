@@ -15,8 +15,8 @@ Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos an
 
 ## 👥 Contributors
 
-- [@tahangz]([https://github.com/yourusername](https://github.com/tahangz))
-- [@Najemeddinebessaoud]([https://github.com/Najemeddinebessaoud](https://github.com/Najemeddinebessaoud)) – Co-developer, helped with the deepfake detection models
+- [@tahangz](https://github.com/tahangz)
+- [@Najemeddinebessaoud](https://github.com/Najemeddinebessaoud) 
 
 
 # 🏗️ High level overview of XceptionNet + Vit Architecture & Workflow
