@@ -26,7 +26,6 @@ Using: XceptionNet + Vit for images analysis and ResNeXt 50 + LSTM for videos an
   <img src="Screenshot 2025-05-05 013347.png" alt="Sample Gesture" width="400"/>
 </p>
 
-Screenshot 2025-05-22 214831.png
 <p align="center">
   <img src="Screenshot 2025-05-22 214831.png" alt="Sample Gesture" width="600"/>
 </p>
