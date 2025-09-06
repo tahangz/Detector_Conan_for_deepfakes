@@ -1,7 +1,7 @@
 # Detector Conan - Deepfake Detection Platform
 
 ![Detector Conan Logo](frontend/public/favicon.svg)  
-(Video model CODE WILL BE AVAILABLE SOON)
+(Video model code WILL BE AVAILABLE SOON)
 
 Image model notebook link : ([Hybrid_Xception_ViT_V2.ipynb](https://colab.research.google.com/drive/1sxC-XU0e4o1uWhujCntx8RzVYCUdF6iA?usp=sharing))
 
